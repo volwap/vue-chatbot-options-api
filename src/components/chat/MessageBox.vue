@@ -68,9 +68,7 @@ export default {
         this.chatbotIndex += 1;
       }
       if (this.chatbotIndex === 4) {
-        this.$nextTick(() => {
-          setTimeout(this.sendChatbotMessage, 1000 + (Math.random() * 20) * 100);
-        });
+        setTimeout(this.sendChatbotMessage, 1000 + (Math.random() * 20) * 100);
       }
     },
   },
