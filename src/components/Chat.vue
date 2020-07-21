@@ -16,8 +16,7 @@ export default {
   components: { MessageBox, MessagesList, ChatTitle },
   data() {
     return {
-      messages: [
-      ],
+      messages: [],
     };
   },
   methods: {
